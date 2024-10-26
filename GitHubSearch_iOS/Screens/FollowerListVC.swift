@@ -48,20 +48,20 @@ class FollowerListVC: GFDataLoadingVC {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
-    override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
-        if followers.isEmpty && !isLoadingMoreFollowers{
-            var config = UIContentUnavailableConfiguration.empty()
-            config.image = .init(systemName: "person.slash")
-            config.text = "No Followers"
-            config.secondaryText = "This user has no followers. Go Follow them!"
-            contentUnavailableConfiguration = config
-        }else if isSearching && filteredFollowers.isEmpty{
-            contentUnavailableConfiguration = UIContentUnavailableConfiguration.search()
-        }else{
-            contentUnavailableConfiguration = nil
-        }
-    }
-    
+//    override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
+//        if followers.isEmpty && !isLoadingMoreFollowers{
+//            var config = UIContentUnavailableConfiguration.empty()
+//            config.image = .init(systemName: "person.slash")
+//            config.text = "No Followers"
+//            config.secondaryText = "This user has no followers. Go Follow them!"
+//            contentUnavailableConfiguration = config
+//        }else if isSearching && filteredFollowers.isEmpty{
+//            contentUnavailableConfiguration = UIContentUnavailableConfiguration.search()
+//        }else{
+//            contentUnavailableConfiguration = nil
+//        }
+//    }
+//    
     func configureViewController(){
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
