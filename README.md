@@ -31,12 +31,11 @@ GitHubSearch is an iOS app built using UIKit and SwiftUI, designed to help users
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/github-user-finder.git
+   git clone https://github.com/Invader1999/GitHubSearch.git
    ```
 2. Open the project in Xcode:
    ```bash
-   cd github-user-finder
-   open GitHubUserFinder.xcodeproj
+   open GitHubSearch_iOS.xcodeproj
    ```
 3. Build and run the app on your simulator or connected device.
 
