@@ -1,7 +1,8 @@
 
-# GitHub User Finder
+# GitHubSearch
 
-GitHub User Finder is an iOS app built using UIKit and SwiftUI, designed to help users easily search for GitHub profiles, view followers, and manage a list of favorite users. The app supports both light and dark modes, as well as dynamic text for accessibility.
+GitHubSearch is an iOS app built using UIKit and SwiftUI, designed to help users easily search for GitHub profiles, view followers. The app supports both light and dark modes, as well as dynamic text for accessibility.
+
 ## Features
 
 - **User Search**: Search for any GitHub user by their username from the search tab.
